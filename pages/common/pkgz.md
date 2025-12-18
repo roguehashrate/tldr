@@ -1,6 +1,6 @@
 # pkgz
 
-> Unified package manager for installing, removing, updating, and searching packages from multiple sources.
+> Unified package manager for multiple sources.
 > More information: <https://github.com/roguehashrate/pkgz#-usage>.
 
 - Install a package:
@@ -14,6 +14,10 @@
 - Search for a package:
 
 `pkgz search {{package_name}}`
+
+- Remove cache:
+
+`pkgz clean`
 
 - Update all packages in all sources:
 
